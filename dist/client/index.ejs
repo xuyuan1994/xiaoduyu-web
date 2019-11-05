@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html id="<%- theme %>">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- 自定义 head -->
+  
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <link rel="apple-touch-icon" href="/512x512.png">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+  <link rel="icon" href="/512x512.png" type="image/png" />
+
+  <!-- 自定义 meta -->
+  <%- meta %>
+
+<link href="/vendor.f319cf80eedcf894cea8.css" rel="stylesheet"><link href="/styles.f319cf80eedcf894cea8.css" rel="stylesheet"></head>
+<body>
+  
+  <!-- app 视图 -->
+  <div id="app"><%- html %></div>
+
+  <!-- redux -->
+  <script>
+    window.__initState__ = <%- reduxState %>
+  </script>
+  
+  <!--[if lt IE 10]>
+	<style type="text/css">
+		body{ padding:0; margin:0; }
+		.no-supper{ width:100%; min-height: 100px; text-align: center; line-height:100px; background-color:#FFBD91; color:#000; position: fixed; top:100%; margin-top:-100px; z-index: 999; }
+		.no-supper a{ color:#45a7ff; }
+	</style>
+	<div class="no-supper">
+		您的浏览器版本较低，可能存在安全风险，请升级到最新IE浏览器。亦可下载 <a href="https://chrome.google.com/" target="_blank">Google Chrome</a>
+	</div>
+  <![endif]-->
+
+<script type="text/javascript" src="/vendor.f319cf80eedcf894cea8.js"></script><script type="text/javascript" src="/styles.f319cf80eedcf894cea8.js"></script><script type="text/javascript" src="/app.f319cf80eedcf894cea8.js"></script></body>
+</html>
