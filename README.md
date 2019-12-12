@@ -1,10 +1,9 @@
-<p align="center">
-<img src="https://qncdn.xiaoduyu.com/20190507.png" alt="小度鱼" width="100">
-</p>
-<h1 align="center">小度鱼(网站)</h1>
-<p align="center">年轻人的交流社区</p>
+# Side project
 
-## 小度鱼开源项目
+This is a project developed by the author 54sword, and his github link is https://github.com/54sword. I deployed this project using nginx, digitalocean and MongoDB, and the domain name of the deployed website on my server is ddfantasies.com. Most features of xiaoduyu.com can be used on my server. 
+
+
+## Here are the links of the original project 小度鱼开源项目
 |项目|项目体验|原代码|主要技术栈|
 |:---:|:---:|:---:|:---:|
 |WEB网站|[www.xiaoduyu.com](https://www.xiaoduyu.com)|[github.com/54sword/xiaoduyu.com](https://github.com/54sword/xiaoduyu.com)|React、Redux、React-Router、GraphQL|
